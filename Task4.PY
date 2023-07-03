@@ -9,3 +9,9 @@
 #     60 -> 10  40  10
 
 s = int(input('количество журавликов '))
+katya = s//6*4
+petya = s//6
+sereja = s//6
+print(petya,katya,sereja)
+
+    
