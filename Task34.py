@@ -13,3 +13,18 @@
 
 # **Ввод:** пара-ра-рам рам-пам-папам па-ра-па-да    
 #     **Вывод:** Парам пам-пам  
+
+text = input('введите кричалку: ').split()
+vowels = 'уеаоэяию'
+words = []
+for word in text:
+    count = 0
+    for letter in word:
+        if letter in vowels:
+            count += 1
+    words.append(count)
+if len(set(words))==1:
+    result = 'Парам пам пам'
+else:
+    result = 'Пам парам'
+print (result)
