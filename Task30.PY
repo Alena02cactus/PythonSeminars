@@ -4,3 +4,11 @@
 # Каждое число вводится с новой строки.
 
 
+n = int(input('введите n :'))
+a = [0]*n
+a[0] = int(input('введите a[0] '))
+d = int(input('введите d '))
+print(a[0],end=' ')
+for i in range(1,n):
+    a[i]= a[i-1]+d
+    print(a[i],end=' ')
