@@ -19,3 +19,12 @@
 4 8 12 16 20 24
 5 10 15 20 25 30
 6 12 18 24 30 36'''
+
+# def function_name(x):
+# body line 1
+# ...
+# body line n
+# optional return
+
+def print_operation_table(operation, num_rows=6, num_columns=6):
+    
